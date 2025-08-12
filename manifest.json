@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Keyword Research – Adobe Stock (Photos)",
+  "version": "1.0.0",
+  "description": "Ambil jumlah konten per keyword Adobe Stock (Photos). Mode Manual & Multi-Prefix.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Research"
+  },
+  "permissions": ["tabs", "scripting", "storage", "activeTab"],
+  "host_permissions": ["https://stock.adobe.com/*"],
+  "background": { "service_worker": "background.js" },
+  "icons": { "16": "icons/16.png", "32": "icons/32.png", "128": "icons/128.png" }
+}
